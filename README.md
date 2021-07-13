@@ -11,7 +11,7 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 
 ## Table Of Contents
 
-- [How To Use] (#How-To-Use)
+- [How To Use](#How-To-Use)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   <!-- - [Screenshot](#screenshot) -->
