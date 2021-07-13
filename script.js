@@ -8,6 +8,7 @@ const inputDistance = document.querySelector('.form__input--distance');
 const inputDuration = document.querySelector('.form__input--duration');
 const inputCadence = document.querySelector('.form__input--cadence');
 const inputElevation = document.querySelector('.form__input--elevation');
+const deleteWorkout = document.querySelector('.delete-workout');
 
 class Workout {
     date = new Date(); // Date variable for our workout which will log the current date upon entering our workout
@@ -83,7 +84,6 @@ class App {
         
         containerWorkouts.addEventListener('click', this._moveToPopup.bind(this)); // Since doing a regular function call the this keyword resorts to the containerWorkouts element and we want the THIS KEYWORD to be on the class object that's why we have to bind the event listner to the this keyword. If you use callback function like below you don't need to bind as arrow functions automatically bind the THIS keyword.
         // containerWorkouts.addEventListener('click', () => this._moveToPopup(event)); // You could also use the callback function like this for event listener which automatically binds the THIS KEYWORD unlike the regular function call above where you do need to bind the THIS KEYWORD
-
     }
 
     // CLASS METHOD
@@ -311,7 +311,7 @@ class App {
 }
 
 const app = new App(); // Creates an instance of the class App called app upon page load. 
-
+deleteWorkout.addEventListener('click', app.reset.bind(this));
 
 
 
