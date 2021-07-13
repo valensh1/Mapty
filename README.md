@@ -43,7 +43,7 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 
 ### The Challenge
 
-The challenge was to build out a simplified banking application that allowed a user to login with a simple username and pin number, verify user login credentials and display only that users bank account information. Adding to the challege was displaying the users bank account information in their country's local currency along with displaying dates on the page according to their custom country date format. Another challenging aspect was being able to transfer money or get a loan and have the money transact in the correct user's account. Lastly, the use of inactivity timers posed a challenge because you have to stop and reset timers with each transaction and also stop a previous users timer and start a new one when a new user logs in. When the activitiy timer expired a lot of testing was required to ensure the user was logged out and the application was reset to the beginning.
+Using the Leaflet library for interactive maps posed the biggest challenge for this project as it required reading through the library's documentation to understand some of the basics on getting the map to display and to display the workout location marker pins on the map.
 
 
 ### Links
@@ -55,42 +55,30 @@ The challenge was to build out a simplified banking application that allowed a u
 
 - HTML
 - CSS
-- Vanilla Javascript
+- Vanilla JavaScript
+- Leaflet - open-source JavaScript library for interactive maps
 
 ### What I Learned
 
-Learned to build an interactive and fully functional banking application using:
-- Intl Library API
-  - Used to format country currency (NumberFormat() method) and country specific formatted dates (DateTimeFormat() method)
+Learned to build a basic workout application which allows a user to indicate a workout location on a map and log their workout information using:
+- Leaflet - Open-source JavaScript library for interactive maps
+  - Used to insert map into application and display marker pins on map when user logs their workout information for that particular location on map
+- Object-Oriented Programming (OOP) - Use of classes with constuctor functions and relevant sub-classes that extend the parent class
 - insertAdjacentHTML Method
-  - Easy way to insert HTML including some variables with calculations right into our application which was used to create each banking transaction row.
-- Working with timers such as the setTimeout and setInterval methods
-  - Used in application to log user activity and log a user out if they are determined to be inactive for 5 minutes.
-- Working with the Math Object
-  - Used Math.abs, Math.round, Math.floor and Math.trunc methods
+  - Easy way to insert HTML including some variables with calculations right into our application which was used to create each workout log.
 - DOM Manipulation
-- Event Listeners - click events
-  - Used buttons tied to certain click events in application such as logging in, transferring money, requesting a loan
-- Use of forms
-    - Used forms to gather information from user throughout application for such things as username, pin, transfer amounts, loan amounts, etc.
-- Switch statement
-  - Used to determine if transaction dates happened within 7 days to display instead of the date but a string like 'Today' or '3 days ago' to represent when the transaction occurred
+- Event Listeners - change and click events
+  - Change Event - For when user changing a workout from Running to Cycling on form the last input field displayed to user is different and needed to be toggled
+  - Click Event - For when user clicked on a particular workout on form the user would be navigated to marker pin on map for where that workout occurred
+- Use of form
+    - Used form to gather information from user about each workout such as duration, distance, elevation, steps per minute, cadence, etc.
+- Using JavaScript to change CSS styles such as toggling class names when an event occurs.
 - Working Extensively with Arrays:
-  - Slice Method
-    - Used to create a shallow copy of an array
-  - Sort Method
-    - Used to sort our list of banking transactions by date
-  - forEach Map and flatMap Methods
-    - Used to loop through our accounts to return pertinent information for application such as current account holders banking transaction amounts, etc and flattening arrays if applicable using the flatMap method.
-  - Filter and Reduce Methods
-    - Used to filter arrays in our applicaton for such things as negative dollar amounts (money going out). Then chaining it with a reduce method to add up the filtered array and return a single dollar amount.
-  - Find, findIndex and Some Methods
-    - Used to find various elements inside accounts array to be used elsewhere in application.
-  - Split and Join Methods
-    - Split method used to create arrays from strings in our application to loop over and then ultimately use the join method to join arrays back into strings.
-
-
-
+  - Every Method - combined with Number.isFinite method to perform validation on user workout information input into the formus to ensure user is logging logical workout data.
+  - ForEach Method - Used to loop through an array containing workout information and invoking function to display each workout information in DOM
+  - Push method - Inserting data at the end of an array
+- Local Storage - Use of local storage to store workout information so when application is loaded the workout information entered previously is displayed and not lost.
+    
 
 ### Continued Development
 
