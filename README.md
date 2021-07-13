@@ -11,10 +11,10 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 
 ## Table Of Contents
 
--[How To Use] (#How-To-Use)
+- [How To Use] (#How-To-Use)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  <!-- - [Screenshot](#screenshot) -->
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -29,7 +29,7 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 ![How To Use](Images/Screenshot1.png?raw=true "find area on map where workout occurred")
 
 2. The side bar to left will open a form which allows the user to log their workout information
-  * For Type select either Running or Cycling
+      * For Type select either Running or Cycling
 ![How To Use](Images/Screenshot2.png?raw=true "log workout information")
 
 3. Hit enter after logging workout information
@@ -45,16 +45,11 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 
 The challenge was to build out a simplified banking application that allowed a user to login with a simple username and pin number, verify user login credentials and display only that users bank account information. Adding to the challege was displaying the users bank account information in their country's local currency along with displaying dates on the page according to their custom country date format. Another challenging aspect was being able to transfer money or get a loan and have the money transact in the correct user's account. Lastly, the use of inactivity timers posed a challenge because you have to stop and reset timers with each transaction and also stop a previous users timer and start a new one when a new user logs in. When the activitiy timer expired a lot of testing was required to ensure the user was logged out and the application was reset to the beginning.
 
-### Screenshot
-
-Finished Version
-![screenshot of finished project](Images/Final_Application_Screenshot.png?raw=true "screenshot of finished project")
-
 
 ### Links
 
-- Github Repository URL: (https://github.com/valensh1/Bankist)
-- Live Site URL: (https://valensh1.github.io/Bankist/)
+- Github Repository URL: (https://github.com/valensh1/Mapty)
+- Live Site URL: (https://valensh1.github.io/Mapty/)
 
 ### Built With
 
