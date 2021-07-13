@@ -250,7 +250,6 @@ class App {
                     <span class="workout__value">${workout.cadence}</span>
                     <span class="workout__unit">spm</span>
               </div>
-            }
             </li>
             `;
         }
@@ -266,7 +265,6 @@ class App {
                 <span class="workout__value">${workout.elevationGain}</span>
                 <span class="workout__unit">m</span>
             </div>
-            }
             `;
         }
         form.insertAdjacentHTML('afterend', html);

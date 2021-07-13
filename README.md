@@ -25,53 +25,20 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 
 ### How To Use
 
-* LOGGING IN: Must login to banking application by typing any of the following user names and PIN's:
-  1. user: js  
-    pin: 1111
+1. Find the area on map where latest workout occurred and click on map at that location
+![Login](Images/Login_Screenshot1.png?raw=true "find area on map where workout occurred")
 
-  2. user: jd  
-     pin: 2222
+2. The side bar to left will open a form which allows the user to log their workout information
+  * For Type select either Running or Cycling
+![Login](Images/Login_Screenshot2.png?raw=true "log workout information")
 
-  3. user: stw  
-     pin: 3333
+3. Hit enter after logging workout information
 
-  4. user: ss  
-     pin: 4444
- 
-     
-![Login](Images/Login_Screenshot.png?raw=true "screenshot of login")
+4. Marker pin will display on map
+![Login](Images/Login_Screenshot3.png?raw=true "marker pin will display on map")
 
-* TRANSFER MONEY:
-  1. Enter user to transfer money to
-  2. Enter amount to transfer
-  3. Hit enter or click on arrow button
-![Login](Images/TransferMoney_Screenshot1.png?raw=true "Transfer Money Screenshot1")
-
-
-* Account Transferring Money
-![Login](Images/TransferMoney_Screenshot2.png?raw=true "Transfer Money Screenshot2")
-
-
-* Receiver of Transfer Bank Account
-![Login](Images/TransferMoney_Screenshot3.png?raw=true "Transfer Money Screenshot3")
-
-* REQUESTING A LOAN:
-  1. Enter the loan amount
-  2. Hit enter or click on arrow button
-  <br>
-
-![Login](Images/Loan_Screenshot1.png?raw=true "Loan Screenshot1")
-![Login](Images/Loan_Screenshot2.png?raw=true "Loan Screenshot2")
-
-
-* CLOSING AN ACCOUNT:
-  1. Enter username
-  2. Enter pin
-  3. Hit enter or click on arrow button
-  4. Account will be closed and user taken back to application login screen.
-  <br>
-NOTE: User logged in can only close their account and CANNOT close the account of another user!!!
-<br>
+5. Enter multiple workout locations with multiple workout information
+![Login](Images/Login_Screenshot4.png?raw=true "multiple workout locations and workout information can be logged")
 
 
 ### The Challenge
