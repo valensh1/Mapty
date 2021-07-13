@@ -26,19 +26,19 @@ Alternatively, click [Here to view the finished website on live GitHub page.]( h
 ### How To Use
 
 1. Find the area on map where latest workout occurred and click on map at that location
-![Login](Images/Login_Screenshot1.png?raw=true "find area on map where workout occurred")
+![How To Use](Images/Screenshot1.png?raw=true "find area on map where workout occurred")
 
 2. The side bar to left will open a form which allows the user to log their workout information
   * For Type select either Running or Cycling
-![Login](Images/Login_Screenshot2.png?raw=true "log workout information")
+![How To Use](Images/Screenshot2.png?raw=true "log workout information")
 
 3. Hit enter after logging workout information
 
 4. Marker pin will display on map
-![Login](Images/Login_Screenshot3.png?raw=true "marker pin will display on map")
+![How To Use](Images/Screenshot3.png?raw=true "marker pin will display on map")
 
 5. Enter multiple workout locations with multiple workout information
-![Login](Images/Login_Screenshot4.png?raw=true "multiple workout locations and workout information can be logged")
+![How To Use](Images/Screenshot4.png?raw=true "multiple workout locations and workout information can be logged")
 
 
 ### The Challenge
