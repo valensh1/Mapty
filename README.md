@@ -1,12 +1,12 @@
-# BANKIST
+# MAPTY
 
 ## Overview
-This is a fictitious banking application that allows a user to perform very simplified banking activities. Upon user login, the user can see their banking transactions, transfer money to another user, request a loan or even close their bank account. Depending on what country the user is in they will see their banking transactions in their local currency with country specific date formats.
+This is a simple application which allows a user to pick a location on a map where their workout occurred and log their workout information.
 
 ## Application Start-up
 
 Clone or download this repo to your local machine, unzip and open index.html file in a browser.
-Alternatively, click [Here to view the finished website on live GitHub page.]( https://valensh1.github.io/Bankist/ )
+Alternatively, click [Here to view the finished website on live GitHub page.]( https://valensh1.github.io/Mapty/ )
 <br>
 
 ## Table Of Contents
